@@ -4,6 +4,7 @@
   <meta charset=utf-8>
   <title>Login</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <div class="page-wrap">
@@ -27,12 +28,12 @@
           <h3>Login to your account</h3>
           <div class="form-group">
             <label for="username">Username</label>
-            <input type="text" id="username" class="username" />
+            <input type="text" id='username' class="username" onChange="change()"/>
           </div>
 
           <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" id="password" class="password" />
+            <input type="password" id='password' class="password"/>
           </div>
 
           <div class="form-group flex-end">
@@ -47,4 +48,7 @@
   </div>
 
 </body>
+
+<script src="main.js"></script>
 </html>
+
