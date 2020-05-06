@@ -6,7 +6,6 @@
 
 body {
   font-family: montserrat, sans-serif;
-
 }
 
 .page-wrap {
@@ -17,7 +16,8 @@ body {
 .left-panel {
   flex: 1 1 66.666%;
   background-image: linear-gradient(to bottom right,
-    #CC2E5D, #FF5858);
+    #CC2E5D, 
+    #FF5858);
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -59,17 +59,20 @@ body {
   margin-bottom: 45px;
 }
 
-.animated-form .form-group {
+.animated-form 
+.form-group {
   position: relative;
   display: flex;
   margin-bottom: 45px;
 }
 
-.form-group .flex-end {
+.form-group 
+.flex-end {
   justify-content: flex-end;
 }
 
-.animated-form .form-group label {
+.animated-form 
+.form-group label {
   position: absolute;
   top: 50%;
   left: 0px;
@@ -79,7 +82,8 @@ body {
   transition: 0.4s ease-out;
 }
 
-.animated-form .form-group input {
+.animated-form 
+.form-group input {
   display: block;
   width: 100%;
   padding: 10px 0px;
@@ -92,21 +96,26 @@ body {
   transition: 0.4s ease-out;
 }
 
-.animated-form .form-group:focus-within label {
+.animated-form 
+.form-group:focus-within label {
   top: 0px;
   transform: translateY(-100%);
   color: #FF5858;
 }
 
-.animated-form .form-group:focus-within input {
+.animated-form 
+.form-group:focus-within input {
   border-bottom-color: #FF5858;
 }
 
-.animated-form .form-group .flex-end {
+.animated-form 
+.form-group .flex-end {
   margin-bottom: 25px;
 }
 
-.animated-form .form-group .button {
+.animated-form 
+.form-group 
+.button {
   display: inline-block;
   margin-left: 48%;
   width: auto;
@@ -115,7 +124,8 @@ body {
   border-radius: 999px;
   background-image: linear-gradient(to right,
     transparent 50%,
-    #CC2E5D 50%, #FF5858);
+    #CC2E5D 50%, 
+    #FF5858);
   background-size: 200%;
 
   color: #FF5858;
@@ -124,13 +134,16 @@ body {
   cursor: pointer;
 }
 
-.animated-form .form-group .button:hover {
+.animated-form 
+.form-group 
+.button:hover {
   color: #FFF;
   background-position: 100%;
   border: 3px solid #FFF;
 }
 
-.animated-form .lost-password a {
+.animated-form 
+.lost-password a {
   color: #FF5858;
   font-size: 16px;
   font-weight: 400;
@@ -139,6 +152,7 @@ body {
   border-bottom: 2px solid transparent;
 }
 
-.animated-form .lost-password a:hover {
+.animated-form 
+.lost-password a:hover {
   border-bottom-color: #FF5858;
 }
